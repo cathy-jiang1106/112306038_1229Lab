@@ -1,5 +1,9 @@
 // Global variables
 let secretNumber = generateRandomNumber();
+let picture1 = "picture1.jpeg";
+let picture2 = "picture2.jpeg";
+let music1 = "music1.mp3";
+let music2 = "music2.mp3";
 
 // 4. Function to generate a random number between 1 and 10
 function generateRandomNumber() {
@@ -14,10 +18,7 @@ function checkGuess() {
   let userGuess = document.getElementById("userGuess").value;
   let resultElement = document.getElementById("result");
 
-  let picture1 = "picture1.jpg";
-  let picture2 = "picture2.jpg";
-  let music1 = "music1.mp3";
-  let music2 = "music2.mp3";
+  
   // 5. Here should be an if-else statement.
 
   // If the answer is correct, then output "Congratulations! You guessed the correct number!" with picture2 and music2.
